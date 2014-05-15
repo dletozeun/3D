@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C++ Express 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HDRR demo", "HDRR demo\HDRR demo_vs2005.vcproj", "{FCD0E8B2-51E7-41D4-A580-5E6B5D9807BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release debug|Win32 = Release debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCD0E8B2-51E7-41D4-A580-5E6B5D9807BD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FCD0E8B2-51E7-41D4-A580-5E6B5D9807BD}.Debug|Win32.Build.0 = Debug|Win32
+		{FCD0E8B2-51E7-41D4-A580-5E6B5D9807BD}.Release debug|Win32.ActiveCfg = Release debug|Win32
+		{FCD0E8B2-51E7-41D4-A580-5E6B5D9807BD}.Release debug|Win32.Build.0 = Release debug|Win32
+		{FCD0E8B2-51E7-41D4-A580-5E6B5D9807BD}.Release|Win32.ActiveCfg = Release|Win32
+		{FCD0E8B2-51E7-41D4-A580-5E6B5D9807BD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
