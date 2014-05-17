@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="OGLF">
+      <UniqueIdentifier>{b28ba0d3-0a6a-4170-a6ac-c730b5394622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGLF\src">
+      <UniqueIdentifier>{66ee53c5-4652-4741-b924-0dc306f9cddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGLF\include">
+      <UniqueIdentifier>{6382da5f-4035-4de7-8308-782d3503057e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="demoMain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OGLF\Camera.cpp">
+      <Filter>OGLF\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OGLF\Core.cpp">
+      <Filter>OGLF\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OGLF\CubeMap.cpp">
+      <Filter>OGLF\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OGLF\GLSLshader.cpp">
+      <Filter>OGLF\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OGLF\GLSLshaderProgram.cpp">
+      <Filter>OGLF\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OGLF\Light.cpp">
+      <Filter>OGLF\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OGLF\Matrix.cpp">
+      <Filter>OGLF\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OGLF\Mesh.cpp">
+      <Filter>OGLF\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OGLF\PostProcessingFX.cpp">
+      <Filter>OGLF\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OGLF\Quaternion.cpp">
+      <Filter>OGLF\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OGLF\Renderer.cpp">
+      <Filter>OGLF\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OGLF\RenderingFX.cpp">
+      <Filter>OGLF\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OGLF\RenderTexture.cpp">
+      <Filter>OGLF\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OGLF\Scene.cpp">
+      <Filter>OGLF\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OGLF\Texture.cpp">
+      <Filter>OGLF\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OGLF\Texture2D.cpp">
+      <Filter>OGLF\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OGLF\utils.cpp">
+      <Filter>OGLF\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="demoMain.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OGLF\Camera.h">
+      <Filter>OGLF\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OGLF\Core.h">
+      <Filter>OGLF\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OGLF\CubeMap.h">
+      <Filter>OGLF\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OGLF\Error.h">
+      <Filter>OGLF\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OGLF\GLSLshader.h">
+      <Filter>OGLF\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OGLF\GLSLshaderProgram.h">
+      <Filter>OGLF\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OGLF\GLtransformer3D.h">
+      <Filter>OGLF\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OGLF\HUD.h">
+      <Filter>OGLF\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OGLF\Light.h">
+      <Filter>OGLF\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OGLF\Matrix.h">
+      <Filter>OGLF\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OGLF\Mesh.h">
+      <Filter>OGLF\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OGLF\Namable.h">
+      <Filter>OGLF\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OGLF\Object3D.h">
+      <Filter>OGLF\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OGLF\OGLframeworkBase.h">
+      <Filter>OGLF\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OGLF\PostProcessingFX.h">
+      <Filter>OGLF\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OGLF\Quaternion.h">
+      <Filter>OGLF\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OGLF\Renderer.h">
+      <Filter>OGLF\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OGLF\RenderingConfiguration.h">
+      <Filter>OGLF\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OGLF\RenderingFX.h">
+      <Filter>OGLF\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OGLF\RenderTexture.h">
+      <Filter>OGLF\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OGLF\Scene.h">
+      <Filter>OGLF\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OGLF\Texture.h">
+      <Filter>OGLF\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OGLF\Texture2D.h">
+      <Filter>OGLF\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OGLF\TextureCopier.h">
+      <Filter>OGLF\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OGLF\utils.h">
+      <Filter>OGLF\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OGLF\Vec.h">
+      <Filter>OGLF\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
